@@ -1,0 +1,99 @@
+# ==============================================================================
+# Security, Keys & Sensitive Credentials
+# ==============================================================================
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+*.cert
+*.crt
+id_rsa*
+id_ed25519*
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Databases, Runtime State & Storage
+# ==============================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/
+backend/data/
+uploads/
+backend/uploads/
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# JavaScript / Web / Node
+# ==============================================================================
+node_modules/
+web/node_modules/
+dist/
+web/dist/
+dist-ssr/
+web/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+
+# ==============================================================================
+# Mobile / Flutter
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+mobile/build/
+mobile/.dart_tool/
+
+# ==============================================================================
+# Operating System & IDEs
+# ==============================================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
