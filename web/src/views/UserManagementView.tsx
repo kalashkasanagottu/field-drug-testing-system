@@ -67,7 +67,7 @@ export const UserManagementView: React.FC = () => {
         full_name: '',
         badge_number: '',
         department: 'Forensic Field Operations',
-        role: UserRole.FIELD_OFFICER
+        role: 'FIELD_OFFICER'
       });
       setSuccessMessage('User created successfully.');
       fetchUsers();

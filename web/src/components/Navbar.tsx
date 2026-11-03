@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   Shield, Camera, Database, FileCheck, Sliders, History, 
-  Wifi, WifiOff, Smartphone, Monitor, UserCheck, LogOut, AlertTriangle, Settings
+  Wifi, WifiOff, Smartphone, Monitor, UserCheck, LogOut, AlertTriangle, Settings, FileText
 } from 'lucide-react';
 import { User, UserRole } from '../types';
 
